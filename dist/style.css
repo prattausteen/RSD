@@ -1,0 +1,208 @@
+.about-box a {
+  text-decoration: none;
+}
+
+.about-box {
+	max-width: 500px;
+	width: 100%;
+	margin: 200px auto;
+	border: 1px solid #000;
+	border-radius: 10px;
+	position: relative;
+  font-family: 'Raleway', sans-serif;
+}
+
+.about-profile {
+	padding: 1em 1.5em;
+}
+
+.austin {
+	top: -75px;
+	left: -75px;
+	width: 150px;
+	height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+	position: absolute;
+}
+
+.about-box h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+}
+
+.btns-three {
+	text-align: center;
+}
+
+.btn {
+	top: 0;
+	width: 22.5%;
+	margin: .25em;
+	color: #cccccc;
+	position: relative;
+	display: inline-block;
+	padding: 10px 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #444;
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
+    background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
+    background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
+    -moz-transition: background-color .2s ease-in-out, top .2s ease-in-out;
+    -webkit-transition: background-color .2s ease-in-out, top .2s ease-in-out;
+    -o-transition: background-color .2s ease-in-out, top .2s ease-in-out;
+    -ms-transition: background-color .2s ease-in-out, top .2s ease-in-out;
+    transition: background-color .2s ease-in-out, top .2s ease-in-out;
+    box-shadow: inset 0px 0px 0px 0px #282828, inset 0px 2px 1px 0px rgba(255,255,255,0.1);
+}
+
+.btn:first-child {
+	margin-left: 0;
+}
+
+.btn:last-child {
+	margin-right: 0;
+}
+
+.btn:hover {
+	top: -5px;
+	color: #ffffff;
+}
+
+.linkedin {
+   
+}
+
+.linkedin:hover {
+	background-color: #1178b3;
+}
+
+.twitter {
+  
+}
+
+.twitter:hover {
+	background-color: #2aa3ef;
+}
+
+.github {
+
+}
+
+.github:hover {
+	background-color: #688eb3;
+}
+
+.hire-btn {
+	color: #cccccc;
+	margin: 20px auto;
+	display: block;
+	text-align: center;
+	padding: 20px 40px;
+	border-radius: 5px;
+    overflow: hidden;
+    background: #444;
+	position: relative;
+	font-size: 2em;
+	text-transform: uppercase;
+	transition: all .2s ease-in-out;
+}
+
+.hire-btn:hover {
+	color: #ffffff;
+	text-decoration: none;
+    transform: scale(1.05, 1.05);
+	background: #48a436;
+}
+
+.about-footer {
+	padding: 10px 20px;
+	border-top: 1px solid #000000;
+}
+
+.about-footer::after {
+	clear: both;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.liked {
+	float: left;
+	dispay: inline-block;
+}
+
+.projects {
+	float: right;
+	display: inline-block;
+	text-align: right;
+}
+
+.fa {
+	float: left;
+  position: relative;
+	padding: 1px 15px 0 0;
+	display: inline-block;
+}
+
+.fa-heart {
+	color: #901205;
+	content:"\f004";
+	width: 10px;
+	height: 10px;
+  cursor: pointer;
+}
+
+.fa-heart:hover {
+  animation: heartbeat 1s infinite;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+ 
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( 1.1 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( 1.1 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( 1.1 );
+  }
+  100%
+  {
+    transform: scale( 1.1 );
+  }
+}
